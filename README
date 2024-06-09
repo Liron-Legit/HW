@@ -1,0 +1,8 @@
+To execute the code, follow these steps:
+
+1. Install all dependencies listed in the "requirements" file.
+2. Launch the terminal and execute: uvicorn main:app.
+3. Open another terminal and run: ngrok http http://localhost:8000.
+4. Navigate to: https://github.com/organizations/Liron-Legit/settings/hooks/483020921,
+   paste the URL obtained in the previous step (under Forwarding), and click "Update".
+5. You're all set to go! 😊
